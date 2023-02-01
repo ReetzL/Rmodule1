@@ -19,8 +19,9 @@ public class Main {
         myNumber = fox.nextInt();
         
         // get the first left most digit
-        int digit1 = myNumber / 10000;
-        System.out.println("first digit: " + digit1);
+        System.out.println("first digit: " + myNumber/10000);
+        System.out.println("floating point result: " + myNumber/10000.0);
+        System.out.println(" second digit: " +  myNumber/1000%10);
     }
     
 }
