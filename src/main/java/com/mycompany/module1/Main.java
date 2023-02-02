@@ -21,7 +21,10 @@ public class Main {
         // get the first left most digit
         System.out.println("first digit: " + myNumber/10000);
         System.out.println("floating point result: " + myNumber/10000.0);
-        System.out.println(" second digit: " +  myNumber/1000%10);
+        System.out.println("second digit: " +  myNumber/1000%10);
+        System.out.println("third digit: " + myNumber/100%10);
+        System.out.println("four digit: " + myNumber%100/10);
+        System.out.println("fifth digit: "+ myNumber%10);
     }
     
 }
